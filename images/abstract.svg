@@ -6,60 +6,33 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   id="svg8"
-   version="1.1"
-   viewBox="0 0 76.200001 76.200003"
-   height="3in"
    width="3in"
-   sodipodi:docname="favicon.svg"
-   inkscape:version="0.92.1 r"
-   inkscape:export-filename="/home/elecprog/Development/feltix.github.io/images/favicon.svg.png"
-   inkscape:export-xdpi="69.668571"
-   inkscape:export-ydpi="69.668571">
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="901"
-     inkscape:window-height="480"
-     id="namedview28"
-     showgrid="false"
-     inkscape:zoom="0.81944444"
-     inkscape:cx="-138.50848"
-     inkscape:cy="144"
-     inkscape:window-x="0"
-     inkscape:window-y="34"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1" />
+   height="3in"
+   viewBox="0 0 76.200001 76.200003"
+   version="1.1"
+   id="svg8">
   <defs
      id="defs2">
     <linearGradient
        id="linearGradient1331">
       <stop
-         id="stop1327"
+         style="stop-color:#00c1f2;stop-opacity:1"
          offset="0"
-         style="stop-color:#00c1f2;stop-opacity:1" />
+         id="stop1327" />
       <stop
-         id="stop1329"
+         style="stop-color:#82ffdc;stop-opacity:1"
          offset="1"
-         style="stop-color:#82ffdc;stop-opacity:1" />
+         id="stop1329" />
     </linearGradient>
     <linearGradient
-       gradientTransform="translate(-6.3499995,6.35)"
-       y2="281.31396"
-       x2="65.389877"
-       y1="224.23956"
-       x1="24.379463"
-       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient1331"
        id="linearGradient5832"
-       xlink:href="#linearGradient1331" />
+       gradientUnits="userSpaceOnUse"
+       x1="24.379463"
+       y1="224.23956"
+       x2="65.389877"
+       y2="281.31396"
+       gradientTransform="translate(-6.3499995,6.35)" />
   </defs>
   <metadata
      id="metadata5">
@@ -69,31 +42,31 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(0,-220.79998)"
-     id="layer1">
+     id="layer1"
+     transform="translate(0,-220.79998)">
     <circle
-       r="35"
-       cx="38.099998"
-       cy="258.89999"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke-width:0.2433555"
        id="path4495"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke-width:0.2433555" />
+       cy="258.89999"
+       cx="38.099998"
+       r="35" />
     <text
-       id="text3717"
-       y="252.96576"
-       x="45.357143"
+       xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Courier Prime';-inkscape-font-specification:'Courier Prime, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"><tspan
-         y="261.57498"
+       x="45.357143"
+       y="252.96576"
+       id="text3717"><tspan
+         id="tspan3719"
          x="45.357143"
-         id="tspan3719" /></text>
+         y="261.57498" /></text>
     <path
-       id="path3682"
+       style="fill:url(#linearGradient5832);fill-opacity:1;fill-rule:nonzero;stroke-width:0.26458332"
        d="M 39.236516,231.33129 A 27.308778,27.59226 2.3606744 0 0 10.81425,257.77513 27.308778,27.59226 2.3606744 0 0 36.963484,286.46867 27.308778,27.59226 2.3606744 0 0 65.38575,260.02483 27.308778,27.59226 2.3606744 0 0 39.236516,231.33129 Z m 0.772265,3.28503 A 24.379463,25.324403 2.3606744 0 1 63.324885,260.92359 24.379463,25.324403 2.3606744 0 1 37.922571,285.22193 24.379463,25.324403 2.3606744 0 1 14.606968,258.9152 24.379463,25.324403 2.3606744 0 1 40.008781,234.61632 Z"
-       style="fill:url(#linearGradient5832);fill-opacity:1;fill-rule:nonzero;stroke-width:0.26458332" />
+       id="path3682" />
   </g>
 </svg>
