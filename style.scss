@@ -23,7 +23,11 @@ $family-primary: "Source Sans Pro", Helvetica, sans-serif;
 $dimensions: 16 24 32 48 64 96 128 256;
 
 // Make large icons larger
-$icon-dimensions-large: 9em;
+$icon-dimensions-large: 8em;
+
+// Disable the widescreen and fullhd breakpoints
+$widescreen-enabled: false;
+$fullhd-enabled: false;
 
 // Import the rest of the styles
 @import "bulma";
@@ -68,4 +72,8 @@ span.is-centered-icon {
 
 .is-grey {
   color: $grey;
+}
+
+.no-wrap {
+  white-space: nowrap;
 }
