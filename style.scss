@@ -6,10 +6,12 @@
 @import "utilities/functions";
 
 // Update colors
-$purple: #8C7CF3;
-$blue: #4275DB;
+$purple: #8c7cf3;
+$blue: #4275db;
 $cyan: #00c1f2;
-$green: #4CFFCD;
+$green: #4cffcd;
+$orange:#ffa34c;
+$red: #db4263;
 $grey: #636363;
 
 // Use the new cyan as the primary color and white as its invert
@@ -68,6 +70,14 @@ span.is-centered-icon {
 
 .is-green {
   color: $green;
+}
+
+.is-red {
+  color: $red;
+}
+
+.is-orange {
+  color: $orange;
 }
 
 .is-grey {
