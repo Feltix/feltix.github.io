@@ -1,0 +1,71 @@
+---
+---
+
+// Import initial variables
+@import "utilities/initial-variables";
+@import "utilities/functions";
+
+// Update colors
+$purple: #8C7CF3;
+$blue: #4275DB;
+$cyan: #00c1f2;
+$green: #4CFFCD;
+$grey: #636363;
+
+// Use the new cyan as the primary color and white as its invert
+$primary: $cyan;
+$primary-invert: $white;
+
+// Use the new serif family
+$family-primary: "Source Sans Pro", Helvetica, sans-serif;
+
+// Add more sizes
+$dimensions: 16 24 32 48 64 96 128 256 300;
+
+// Make large icons larger
+$icon-dimensions-large: 9em;
+
+// Import the rest of the styles
+@import "bulma";
+
+// Aditional styles
+figure.is-centered {
+  margin-left: auto!important;
+  margin-right: auto!important;
+}
+
+span.is-centered-icon {
+  width: 100%!important;
+}
+
+.spacing-bottom {
+  margin-bottom: 1.5em;
+}
+
+.spacing-top {
+  margin-top: 1.5em;
+}
+
+.has-gradient {
+  background-image: linear-gradient(-20deg, $cyan 55%, $green 100%);
+}
+
+.is-purple {
+  color: $purple;
+}
+
+.is-blue {
+  color: $blue;
+}
+
+.is-cyan {
+  color: $cyan;
+}
+
+.is-green {
+  color: $green;
+}
+
+.is-grey {
+  color: $grey;
+}
