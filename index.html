@@ -59,75 +59,85 @@ layout: page
 
 <h2>Why Wrap?</h2>
 
-<div class="columns">
-	<div class="column">
-		<div class="box">
-			<span class="icon is-large is-blue is-centered-icon spacing-top">
-				<i class="fas fa-6x fa-code-branch"></i>
-			</span>
-			<h3>Free and open source</h3>
-			<p>
-				With all code published on <span class="is-grey no-wrap"><span class="icon"><i class="fab fa-github"></i></span>GitHub</span>
-				under the GPL, Wrap will be free to use for everyone, <em>forever</em>.
-			</p>
+<div class="tile is-ancestor is-vertical">
+	<div class="tile">
+		<div class="tile is-parent">
+			<div class="tile is-child box">
+				<span class="icon is-large is-blue is-centered-icon spacing-top">
+					<i class="fas fa-6x fa-code-branch"></i>
+				</span>
+				<h3>Free and open source</h3>
+				<p>
+					With all code published on <span class="is-grey no-wrap"><span class="icon"><i class="fab fa-github"></i></span>GitHub</span>
+					under the GPL, Wrap will be free to use for everyone, <em>forever</em>.
+				</p>
+			</div>
 		</div>
-		<div class="box">
-			<span class="icon is-large is-orange is-centered-icon spacing-top">
-				<i class="fas fa-6x fa-rocket"></i>
-			</span>
-			<h3>Fast</h3>
-			<p>
-				Wrap was written in Go with performance as a main priority, it is able to turn Big Fish into a PDF in under 200 ms and an HTML
-				in under 20 ms!
-			</p>
+		<div class="tile is-parent">
+			<div class="tile is-child box">
+				<span class="icon is-large is-green is-centered-icon spacing-top">
+					<i class="fas fa-6x fa-desktop"></i>
+				</span>
+				<h3>Cross platform</h3>
+				<p>
+					Provides a simple command line interface as a single file binary for the three main platforms:
+					<span class="is-green no-wrap"><span class="icon"><i class="fab fa-linux"></i></span>Linux</span>,
+					<span class="is-blue no-wrap"><span class="icon"><i class="fab fa-windows"></i></span>Windows</span> and
+					<span class="is-grey no-wrap"><span class="icon"><i class="fab fa-apple"></i></span>macOS</span>.
+				</p>
+			</div>
 		</div>
-	</div>
-	<div class="column">
-		<div class="box">
-			<span class="icon is-large is-red is-centered-icon spacing-top">
-				<i class="far fa-7x fa-file-pdf"></i>
-			</span>
-			<h3>PDF export</h3>
-			<p>
-				The most popular archival and interchange format there is. Assures that your work can be viewed in the future, be identical
-				everywhere and be brought onto
-				<span class="is-red no-wrap"><span class="icon"><i class="fas fa-file"></i></span>paper</span>.
-			</p>
-		</div>
-		<div class="box">
-			<span class="icon is-large is-cyan is-centered-icon spacing-top">
-				<i class="far fa-7x fa-file-code"></i>
-			</span>
-			<h3>HTML export</h3>
-			<p>
-				HTML is understood by almost every computer there is and can, obviously, also be used to share your script with the rest
-				of the world on the
-				<span class="is-cyan no-wrap"><span class="icon"><i class="fas fa-sitemap"></i></span>world wide web</span>.
-			</p>
+		<div class="tile is-parent">
+			<div class="tile is-child box">
+				<span class="icon is-large is-orange is-centered-icon spacing-top">
+					<i class="fas fa-6x fa-rocket"></i>
+				</span>
+				<h3>Fast</h3>
+				<p>
+					Wrap was written in Go with performance as a main priority, it is able to turn Big Fish into a PDF in under
+					<span class="no-wrap">200&thinsp;ms</span> and an HTML in under <span class="no-wrap">20&thinsp;ms</span>!
+				</p>
+			</div>
 		</div>
 	</div>
-	<div class="column">
-		<div class="box">
-			<span class="icon is-large is-green is-centered-icon spacing-top">
-				<i class="fas fa-6x fa-desktop"></i>
-			</span>
-			<h3>Cross platform</h3>
-			<p>
-				Provides a simple command line interface as a single file binary for the three main platforms:
-				<span class="is-green no-wrap"><span class="icon"><i class="fab fa-linux"></i></span>Linux</span>,
-				<span class="is-blue no-wrap"><span class="icon"><i class="fab fa-windows"></i></span>Windows</span> and
-				<span class="is-grey no-wrap"><span class="icon"><i class="fab fa-apple"></i></span>macOS</span>.
-			</p>
+	<div class="tile">
+		<div class="tile is-parent">
+			<div class="tile is-child box">
+				<span class="icon is-large is-purple is-centered-icon spacing-top">
+					<i class="fas fa-6x fa-globe"></i>
+				</span>
+				<h3>Multi language</h3>
+				<p>
+					Wrap was initially started to extend Fountain to support other languages. Wrap now supports English, French, German and Dutch,
+					but more languages are planned for the future.
+				</p>
+			</div>
 		</div>
-		<div class="box">
-			<span class="icon is-large is-purple is-centered-icon spacing-top">
-				<i class="fas fa-6x fa-globe"></i>
-			</span>
-			<h3>Multi language</h3>
-			<p>
-				Wrap was initially started to extend Fountain to support other languages. Wrap now supports English, French, German and Dutch,
-				but more languages are planned for the future.
-			</p>
+		<div class="tile is-parent">
+			<div class="tile is-child box">
+				<span class="icon is-large is-cyan is-centered-icon spacing-top">
+					<i class="far fa-7x fa-file-code"></i>
+				</span>
+				<h3>HTML export</h3>
+				<p>
+					HTML is understood by almost every computer there is and can, obviously, also be used to share your script with the rest
+					of the world on the
+					<span class="is-cyan no-wrap"><span class="icon"><i class="fas fa-sitemap"></i></span>world wide web</span>.
+				</p>
+			</div>
+		</div>
+		<div class="tile is-parent">
+			<div class="tile is-child box">
+				<span class="icon is-large is-red is-centered-icon spacing-top">
+					<i class="far fa-7x fa-file-pdf"></i>
+				</span>
+				<h3>PDF export</h3>
+				<p>
+					The most popular archival and interchange format there is. Assures that your work can be viewed in the future, be identical
+					everywhere and be brought onto
+					<span class="is-red no-wrap"><span class="icon"><i class="fas fa-file"></i></span>paper</span>.
+				</p>
+			</div>
 		</div>
 	</div>
 </div>
