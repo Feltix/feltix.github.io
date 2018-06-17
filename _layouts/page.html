@@ -24,17 +24,26 @@
 
     <section class="hero is-primary is-fullheight has-gradient">
         <div class="hero-body">
-            <div class="container has-text-centered">
-                {% if page.headerimage %}
-                <figure class="image is-256x256 is-centered spacing-bottom">
-                    <img src="{{page.headerimage}}" />
-                </figure>
-                {% endif %}
-                <p class="title">{{ page.title }}</p>
-                {% if page.subtitle %}
-                <p class="subtitle">{{ page.subtitle }}</p>
-                {% endif %}
+            <div class="tile is-ancestor">
+                <div class="tile is-parent is-vertical">
+                    {% if page.headerimage %}
+                    <div class="tile is-child">
+                        <div class="level-item">
+                            <figure class="image is-256x256">
+                                <img src="{{page.headerimage}}" />
+                            </figure>
+                        </div>
+                    </div>
+                    {% endif %}
+                    <div class="tile is-child has-text-centered">
+                        <p class="title">{{ page.title }}</p>
+                        {% if page.subtitle %}
+                        <p class="subtitle">{{ page.subtitle }}</p>
+                        {% endif %}
+                    </div>
+                </div>
             </div>
+        
         </div>
     </section>
 
